@@ -1,0 +1,116 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: block;
+  text-align: center;
+}
+
+#advice-id {
+  display: block;
+  color: hsl(150, 100%, 66%);
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  padding-top: 30px;
+}
+
+#advice-id #id {
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+}
+
+.advice {
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+  position: sticky;
+  display: block;
+}
+
+.advice-text {
+  font-size: 28px;
+  color: #fff;
+  display: block;
+  width: 550px;
+  font-family: "Manrope", sans-serif;
+  padding: 0 25px 0 25px;
+}
+
+#advice-btn {
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: hsl(150, 100%, 66%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  justify-items: center;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 15px;
+  margin-top: 55px;
+  transition: background-color 0.3s;
+}
+
+#advice-btn:hover {
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+.btn-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 28px;
+  padding-top: 28px;
+}
+
+@media only screen and (max-width: 700px) {
+  .advice-text {
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    width: 450px;
+    font-family: "Manrope", sans-serif;
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .advice-text {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    width: 350px;
+    font-family: "Manrope", sans-serif;
+    padding: 0 18px 0 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .advice-text {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    width: 300px;
+    font-family: "Manrope", sans-serif;
+    padding: 0 15px 0 15px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .advice-text {
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    width: 280px;
+    font-family: "Manrope", sans-serif;
+    padding: 0 13px 0 13px;
+  }
+}
